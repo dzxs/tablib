@@ -40,7 +40,7 @@ packages = [
     'tablib.packages.dbfpy',
     'tablib.packages.dbfpy3'
 ]
-
+package_data = {'tablib': ['tablib/msyh.ttc']}
 install = [
     'odfpy',
     'openpyxl',
@@ -48,6 +48,7 @@ install = [
     'xlrd',
     'xlwt',
     'pyyaml',
+    'reportlab',
 ]
 
 with open('tablib/core.py', 'r') as fd:

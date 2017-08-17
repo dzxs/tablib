@@ -1,6 +1,5 @@
 # application builds
 build/*
-dist/*
 MANIFEST
 
 # python skin

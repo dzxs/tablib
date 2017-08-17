@@ -21,6 +21,7 @@ Output formats supported:
 - Excel (Sets + Books)
 - JSON (Sets + Books)
 - YAML (Sets + Books)
+- PDF (Sets + Books)
 - HTML (Sets)
 - TSV (Sets)
 - OSD (Sets)
@@ -157,3 +158,8 @@ request. Make sure you add yourself to AUTHORS_.
 
 .. _`the repository`: http://github.com/kennethreitz/tablib
 .. _AUTHORS: http://github.com/kennethreitz/tablib/blob/master/AUTHORS
+
+我加了啥？
+--------
+加了pdf支持，加了个微软雅黑字体，所以看起来大了一大坨，加字体是为了显示中文
+dist里打好了一个wheel包
